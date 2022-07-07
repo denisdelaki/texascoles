@@ -76,12 +76,13 @@ body{
    
 
 }
-/* .consultation, .emergencies, .cancer, .Cardiology,.laboratory, .circumcision, .meternity{
-    background-color: rgb(64, 124, 104);
-    cursor: pointer;
-} */
+
 .emergencyImage,.meternityimage, .cardiologyImage, .cancerImage, .consultationImage, .labimage, .circumcisionImage{
     height:60%;
     width: 100%;
+}
+.emergencies:hover,.consultation:hover, .cancer:hover, .Cardiology:hover,.laboratory:hover, .circumcision:hover, .meternity:hover{
+    cursor: pointer;
+    height: 43%;
 }
 
