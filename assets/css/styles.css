@@ -18,8 +18,24 @@ body{
  margin: 0.5rem;
  text-align: center;
  box-shadow: 2px 2px 4px 4px;
+ background-color: white;
+ 
 }
+.para:hover{
+    background-color: rgb(64, 124, 104);
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+    height: 14%;
+   
 
+}
+/* .consultation, .emergencies, .cancer, .Cardiology,.laboratory, .circumcision, .meternity{
+    background-color: rgb(64, 124, 104);
+    cursor: pointer;
+} */
 .emergencyImage,.meternityimage, .cardiologyImage, .cancerImage, .consultationImage, .labimage, .circumcisionImage{
     height:60%;
     width: 100%;
