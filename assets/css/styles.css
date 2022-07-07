@@ -1,4 +1,46 @@
+body{
+    padding: 0px;
+}
+#services{
+    display: flex;
+    
+}
+.consultation{
+ height: 40vh;
+ width: 25%;
+ margin: 0.5rem;
+ box-shadow: 2px 2px 4px 4px;
+}
+.consultationImage{
+    height:60%;
+    width: 100%;
+}
 .emergencies{
  height: 40vh;
  width: 25%;
+ margin: 0.5rem;
+ box-shadow: 2px 2px 4px 4px;
+}
+.emergencyImage{
+    height:60%;
+    width: 100%;
+}
+
+.cancer{
+ height: 40vh;
+ width: 25%; 
+ margin: 0.5rem;
+ box-shadow: 2px 2px 4px 4px;
+}
+.Cardiology{
+height: 40vh;
+ width: 25%;  
+ margin: 0.5rem;
+ box-shadow: 2px 2px 4px 4px;
+}
+.laboratory{
+  height: 40vh;
+ width: 25%; 
+ margin: 0.5rem;
+ box-shadow: 2px 2px 4px 4px;
 }
