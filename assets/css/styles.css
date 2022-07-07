@@ -2,10 +2,54 @@ body{
     padding: 0px;
     margin: 0;
 }
+.navigation{
+    height: 8rem;
+    margin-bottom: 3rem;
+     position: fixed;
+     width: 100%;
+     top: 0%;
+     display: flex;
+    justify-content: space-between;
+    z-index: 1100;
+    background: linear-gradient(-45deg, rgb(64, 124, 104), white);
+     
+}
+.fa-solid{
+    color: red;
+}
+.texas{
+    margin-left: 3rem;
+}
+.texas h1:hover{
+  background-color: rgb(64, 124, 104);
+  padding: 0.5rem;
+  border-radius: 5rem;
+}
+.texas span{
+  color: red;
+}
+.texas span:hover{
+    color: white;
+}
+.navlinks>a{
+    position: relative;
+    top: 2rem;
+    text-decoration: none;
+    text-transform:uppercase;
+    padding: 1rem;
+    color: black;
+    
+}
+.navlinks>a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 5rem;
+}
 #services{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
+    margin-top: 10rem;
     left: 5rem;
     height: 100vh;
 
