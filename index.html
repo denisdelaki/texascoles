@@ -20,7 +20,7 @@
            </div>
            <div class="navlinks">
             <a href="#">Home</a>
-            <a href="#">Appointments</a>
+            <a href="#appointments">Appointments</a>
             <a href="#">Patients</a>
             <a href="#services">Services</a>
             <a href="#">Locations</a>
@@ -28,7 +28,32 @@
           </div>
         </div>
     </header>
-    
+    <section id="home">
+    </section>
+    <section id="appointments">
+        <div  class="doctorImage"></div>
+    <div class="appointment-form"> 
+        <h2 class="appoint">Make an Appointment today With a specialist</h2>
+     <form class="appointmentForm" action="#" method="post">
+          <input type="text" name="name" class="fullname" placeholder="Enter your Full Name" required>
+          <input type="email" name="email" class="email" placeholder="Enter your Email" required>
+          <input type="number" name="age" class="age" placeholder="Enter your current age" maxlength="3" required>
+          <input type="text" name="Gender" class="gender" placeholder="Enter your gender, either male, female or other" required>
+           <input type="datetime-local" class="date" name="date" id="date" required>
+           <select name="services" class="bookservice">
+               <option value="consultaion">consultation</option>
+               <option value="meternity">meternity</option>
+               <option value="cardiology">cardiology</option>
+               <option value="circumcision">circumcision</option>
+               <option value="cancer-services">cancer-services</option>
+               <option value="lab test">laboratory test</option>
+               <option value="other">other</option>
+               
+           </select><br>
+           <input type="submit" class="book" value="BOOK">
+        </form>
+      </div>
+    </section>
     <section id="services">
     <div class="consultation">
         <h4>Consultation</h4>

@@ -4,7 +4,7 @@ body{
 }
 .navigation{
     height: 8rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
      position: fixed;
      width: 100%;
      top: 0%;
@@ -49,7 +49,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    margin-top: 10rem;
+    margin-top: 3rem;
     left: 5rem;
     height: 100vh;
 
@@ -60,7 +60,9 @@ body{
  height: 40vh;
  width: 30%;
  margin: 0.5rem;
+ font-size: 18px;
  text-align: center;
+ text-transform: capitalize;
  box-shadow: 2px 2px 4px 4px;
  background-color: white;
  
@@ -85,4 +87,72 @@ body{
     cursor: pointer;
     height: 43%;
 }
+#home{
+    height: 100vh;
+}
+#appointments{
+   display: flex;
+   align-items: center;
+    height: 100vh;
+    background: linear-gradient(-45deg, white 45%, rgb(64, 124, 104) 45%);
+}
+.appointment-form{
+    margin: 4rem;
+    position: relative;
+    height: 300px;
+    width: 35%;
+}
+.fullname, .email{
+    height: 2rem;
+    background-color: silver;
+    width: 95%;
+    margin: 1rem;
+    border: none;
+    box-shadow: 2px 2px 2px 2px;
+   border-radius: 1rem;
+}
+.age, .gender{
+    height: 2rem;
+    width: 47%;
+    margin-left: 0.3rem;
+   border-radius: 1rem;
+   border: none;
+    box-shadow: 2px 2px 2px 2px;
+   background-color: silver;
 
+}
+.date{
+    height: 2rem;
+    width: 95%;
+    margin: 1rem;
+   border-radius: 1rem;
+   background-color: silver;
+    box-shadow: 2px 2px 2px 2px;
+   border: none;
+}
+.bookservice{
+    height: 2rem;
+    width: 45%;
+    border-radius: 1rem;
+    background-color: silver;
+     box-shadow: 2px 2px 2px 2px;
+}
+.book{
+    height: 2.5rem;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 10rem;
+    margin: 2rem;
+    font-size: large;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 2px 2px white;
+}
+.book:hover{
+    cursor: pointer;
+    background-color: red;
+    color: black;
+}
+.appoint{
+    text-transform: capitalize;
+}
