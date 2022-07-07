@@ -1,19 +1,26 @@
 body{
     padding: 0px;
+    margin: 0;
 }
 #services{
     display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 5rem;
+    height: 100vh;
+
+    
     
 }
-.consultation, .emergencies, .cancer, .Cardiology,.laboratory{
+.consultation, .emergencies, .cancer, .Cardiology,.laboratory, .circumcision, .meternity{
  height: 40vh;
- width: 25%;
+ width: 30%;
  margin: 0.5rem;
  text-align: center;
  box-shadow: 2px 2px 4px 4px;
 }
 
-.emergencyImage, .cardiologyImage, .cancerImage, .consultationImage{
+.emergencyImage,.meternityimage, .cardiologyImage, .cancerImage, .consultationImage, .labimage, .circumcisionImage{
     height:60%;
     width: 100%;
 }
