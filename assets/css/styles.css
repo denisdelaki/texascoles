@@ -84,7 +84,7 @@ body{
     transition: all 750ms ease;
     left: 0;
 }
-.itemlider ul li{
+.itemlider ul li, #events ul li{
     position: relative;
     height: 100%;
     float: left;
@@ -99,6 +99,30 @@ body{
     text-align: center;
     text-transform: uppercase;
     padding: 0.5rem;
+}
+#events #previous, #events #next{
+     width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    text-shadow: 0 0 20px rgb(0, 0, 6);
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+}
+#events #previous{
+left: 10px;
+}
+#events #next{
+right: 10px;
+}
+#events #previous:hover, #events #next:hover{
+    text-shadow: 0;
+    background-color: black;
 }
 .itemlider #previous, .itemlider #next{
     width: 50px;
