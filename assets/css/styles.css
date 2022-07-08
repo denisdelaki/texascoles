@@ -50,19 +50,31 @@ body{
     top: 10rem;
     height: 100vh;
 }
-.video{
-    height: 200px;
+#homepage{
+    display: flex;
 }
-.itemlider{
+
+ .cancerScreening, .communitywork, .tetanus,.phamarcy{
+     width: 49vw;
+    height: 65vh;
+    color: white;
+    background-color: rgb(64, 124, 104);
+    
+ }
+.itemlider, #events{
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     height: 75vh;
     width: 50vw;
+    margin: 1rem;
+   
+}
+#events ul li div h4, p{
     margin-left: 1rem;
    
 }
-.itemlider ul{
+.itemlider ul, #events ul{
     position: relative;
     list-style: none;
     height: 100%;
@@ -79,7 +91,14 @@ body{
 }
 .itemlider ul li img{
     width: 50vw;
-    height: 75vh;
+    height: 68vh;
+}
+.itemlider ul li h4{
+    background-color: rgb(64, 124, 104);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem;
 }
 .itemlider #previous, .itemlider #next{
     width: 50px;
