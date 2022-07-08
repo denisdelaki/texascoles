@@ -103,7 +103,7 @@ body{
 }
 .itemlider #previous:hover, .itemlider #next:hover{
     background-color: rgb(64, 124, 104);
-    text-shadow: 0ch;
+    text-shadow: 0;
 }
 #services{
     display: flex;
