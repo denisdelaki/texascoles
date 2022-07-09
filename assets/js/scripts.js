@@ -10,7 +10,7 @@ const events = document.getElementById('events')
 const eventsliderwidth=events.offsetWidth
 const slidingEvents=document.getElementById('wrapEvents')
 const items=slidingEvents.querySelectorAll("li").length
-
+const mylocation=document.querySelector("#texaslocation")
 document.addEventListener('resize', function () {
     sliderwidth = itemslider.offsetWidth;
     eventsliderwidth = events.offsetWidth;
@@ -53,3 +53,19 @@ next.addEventListener("click", function () {
 setInterval(function () {
     nextSlide()
 }, 4000)
+//render the data on the  DOM
+// function renderData() {
+//     document.querySelector("#texaslocation").append(getLocation(location))
+// }
+//get the texas location from the public API
+function getLocation() {
+    fetch("https://vymaps.com/KE/Texascole-Medical-Center-Chebole-216199/")
+      .then((res) => res.json())
+      .then((location) => {
+        console.log(location);
+      });
+}
+function initialize() {
+    getLocation()
+}
+initialize()
