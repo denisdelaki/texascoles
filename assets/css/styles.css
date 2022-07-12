@@ -258,12 +258,20 @@ background-color: black5;
 .appoint{
     text-transform: capitalize;
 }
+#texaslocation{
+    display: flex;
+
+}
 #location{
     height: 70vh;
     width: 100%;
     position: relative;
     top: 70rem;
     margin-left: 2rem;
+}
+.gallery{
+    margin-left: 4rem;
+    
 }
 .mapouter{
     position:relative;
@@ -273,3 +281,7 @@ background-color: black5;
     width:763px;
     margin-left: 2rem;
 }
+.gmap_canvas {overflow:hidden;
+    background:none!important;
+    height:575px;
+    width:763px;}
