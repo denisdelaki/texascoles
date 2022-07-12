@@ -259,9 +259,17 @@ background-color: black5;
     text-transform: capitalize;
 }
 #location{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     position: relative;
     top: 70rem;
-    
+    margin-left: 2rem;
+}
+.mapouter{
+    position:relative;
+    top: 0%;
+    text-align:right;
+    height:575px;
+    width:763px;
+    margin-left: 2rem;
 }
